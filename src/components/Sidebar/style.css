@@ -1,0 +1,188 @@
+.sidebarContainer{
+    width: 30%;
+}
+.sidebar .widget-content {
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+.social-counter li a {
+    display: block;
+    height: 34px;
+    font-size: 13px;
+    color: #fff;
+    line-height: 34px;
+    text-align: center;
+    text-decoration: none;
+}
+.social-color .instagram a {
+    background: linear-gradient(15deg,#ffb13d,#dd277b,#4d5ed4);
+}
+.social-text .instagram a:after {
+    content: "Instagram";
+}
+.social-color .youtube a {
+    background-color: #ca2127;
+}
+.social-text .youtube a:after {
+    content: "youtube";
+}
+.social-counter li {
+    float: left;
+    width: calc(50% - 5px);
+    margin: 10px 0 0;
+}.facebook{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+
+}
+.social-text .facebook a:after {
+    content: "Facebook";
+}
+
+ul li {
+    list-style: none;
+}
+.widget ul {
+    margin: 0;
+    padding: 0;
+}
+.social-counter li {
+    float: left;
+    width: calc(50% - 5px);
+    margin: 10px 0 0;
+}
+.social a:before {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+}
+.social-color .twitter a {
+    background-color: #00acee;
+}
+.social-counter li a:before {
+    float: left;
+    width: 34px;
+    height: 34px;
+    background-color: rgba(255,255,255,0.1);
+    font-size: 16px;
+    text-align: center;
+    margin: 0 10px 0 0;
+    text-decoration: none;
+}
+.social-text .twitter a:after {
+    content: "Twitter";
+}
+ul {
+    list-style-position: inside;
+    font-weight: 400;
+    list-style: none;
+}
+.widget {
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 0 30px;
+}
+.widget-conten li:before {
+        content: "\f0da";
+        font-family: 'FontAwesome';
+        padding-right: 5px;
+        font-size: 13px;
+    }
+
+
+.facebook a {
+    background-color: #3b5999;
+}
+.cardHeader{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 28px;
+    background-color: #fff;
+    display: block;
+    border-bottom: 2px solid #111111;
+    margin: 0 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cardHeader > span {
+    position: relative;
+    float: left;
+    height: 28px;
+    background-color: #111111;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 30px;
+    padding: 0 15px;
+    margin: 0;
+}
+.post-meta{
+    display: block;
+}
+.post-content{
+    display: inline-flex;
+}
+.post-title{
+    display: inline-block;
+    margin: 0 8px;
+}
+.post-thumb-item {
+    margin: 20px 0;
+    border-bottom: 1px dotted #eee;
+    padding-bottom: 10px;
+}
+.col-lg-4 {
+    width: 33.33333333%;
+}
+.post-image-link{
+
+}
+.title-after{
+
+}
+.col-lg-8 {
+    width: 66.66666667%;
+}
+.profileImageContainer{
+    width: 100%;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    margin-right: 10px;
+}
+.profileImageContainer img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 20px 0;
+}
+
+.personalBio{
+    font-size: 14px;
+    color: #565673;
+    font-weight: 300;
+}
+.recentPosts{
+    padding: 20px 0;
+}
+.recentPost{
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+}
+.recentPost h3{
+    color: black;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.recentPost span{
+    font-size: 10px;
+    font-weight: 400;
+    color: #6c6c66;
+}

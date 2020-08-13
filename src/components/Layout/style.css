@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    max-width: 1200px;
+}
+#back-top {
+    position: fixed;
+    display: block;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999999;
+}
+#back-top span {
+    background-color: #ff7f00;
+}
+#back-top span {
+    width: 40px;
+    height: 40px;
+    display: block;
+    background: url(images/top.png) -5px -5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
